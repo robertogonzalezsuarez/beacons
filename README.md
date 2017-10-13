@@ -24,3 +24,24 @@ $ ionic cordova run ios
 
 Substitute ios for android if not on a Mac.
 
+
+conceptos:
+RSSI
+MEASURE POWER
+https://community.estimote.com/hc/en-us/articles/201636913-What-are-Broadcasting-Power-RSSI-and-other-characteristics-of-a-beacon-s-signal-?page=2
+https://stackoverflow.com/questions/36514389/how-to-calculate-the-distance-to-a-beacon-based-on-tx-rssi-and-accuracy
+
+
+
+lanzar
+ionic serve <-- local navegador
+ionic cordova run android -lc <-- modo depuracion en android (por usb)
+
+el plugin "cordova-plugin-app-event"
+parece no poder instalarse por cordova add o npm, por que genera en el js on un:
+ "file:node_modules/cordova-plugin-app-event",
+ 
+ pero se puede copiar desde dentro de LocalNotifications al node_modules
+ 
+ https://ionicframework.com/docs/native/local-notifications/
+ 

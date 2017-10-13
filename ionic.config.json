@@ -2,5 +2,7 @@
   "name": "beacon",
   "app_id": "e198cd61",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }
