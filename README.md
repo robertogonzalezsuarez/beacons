@@ -45,3 +45,16 @@ parece no poder instalarse por cordova add o npm, por que genera en el js on un:
  
  https://ionicframework.com/docs/native/local-notifications/
  
+
+- Localizar entrada y salida de una region
+- Guardar tiempo dentro de la region de cada usuario, si se producen multiples entradas/salidas en un beacon, sumar tiempos (unificar estancia en el beacon)
+- Puntos parametrizables en backend por cada beacon y tiempo necesario dentro del beacon
+- vista administracion para visualizar usuario, parametrizar puntos y areas (tiempo en region)
+- Revisar la opcion de stock de premios, que se pueden ir agotando y asignando a puntos <-- parametrizable desde admin
+- Login/ registro de usuarios
+- ID de beacon cifrada, y mandar a servidor descifrada desde la app. <-- ojear
+- App - vistas:
+  - Ranking
+  - Listado de premios (y sus puntos y las unidades)
+  - Vista perfil 
+- 
