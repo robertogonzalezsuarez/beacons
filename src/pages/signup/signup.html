@@ -5,23 +5,19 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Login</h2>
-  <p>
-    splash page
-  </p>
-  <form [formGroup]="loginForm" (ngSubmit)="login()">
+  <h2>Signup</h2>
+  <form [formGroup]="loginForm" (ngSubmit)="signup()">
+    <ion-label>name</ion-label>
+    <ion-input formControlName="name" type="text" name="name"></ion-input>
     <ion-label>email</ion-label>
     <ion-input formControlName="email" type="email" name="email"></ion-input>
     <ion-label>Password</ion-label>
     <ion-input formControlName="password" type="password" name="password"></ion-input>
 
-  <div>
-    <button ion-button round type="submit" [disabled]="!loginForm.valid">Login</button>
-  </div>
+    <div>
+      <button ion-button round type="submit" [disabled]="!loginForm.valid">SignUp</button>
+    </div>
   </form>
-  <div>
-    <div>Dont have an account?</div>
-    <div><a (click)="goToSignup()">Create one</a></div>
 
-  </div>
+
 </ion-content>

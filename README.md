@@ -58,3 +58,8 @@ parece no poder instalarse por cordova add o npm, por que genera en el js on un:
   - Listado de premios (y sus puntos y las unidades)
   - Vista perfil 
 - 
+
+
+librerias:
+
+https://github.com/angular/angularfire2
